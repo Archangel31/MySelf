@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+.heading{
+    text-align:center;
+    text-shadow: 1px 3px 3px;
+    background-color: rgb(233, 235, 212);
+    color:black;
+    padding:20px;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgba(8, 6, 12, 0.938);
+}
+.id, .edu, .cer{
+    text-align:left;
+    color: rgb(255, 255, 255);
+    padding: 20px 50px;
+    font-size: 22px;
+    text-shadow:1px 2px 3px red;
+}
+.info, .table{
+    padding:5px 50px;
+    font-size: large;
+    color: azure;
+}
+.table{
+    margin-left: 50px;
+}
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+th{
+   background-color:rgb(185, 185, 169);
+   color: black;
+   text-align: left;
+}
+td{
+   background-color:rgb(197, 197, 177);
+   color: black;
+}
+.img{
+    cursor: pointer;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 400px;
+    width: 105px;
+    height: 120px;
+    border:3px solid rgb(231, 231, 154);
+    border-radius: 4px;
+}
+.img1{
+    cursor: pointer;
+    position: absolute;
+    margin-top: 3.5px;
+    margin-left: 1465px;
+    width: 50px;
+    height: 50px;
+    border:2px solid rgb(20, 18, 18);
+    border-radius: 50%;
+    padding: 5px;
+}
+.img:hover,
+.img:focus {
+  margin:35px 394px;
+  width: 115px;
+  height: 133px;
+}
+.img1:hover,
+.img1:focus {
+    margin-top: 3px;
+    margin-left: 1464.5;
+  border: 3px solid black;
+}
+.cer{
+    cursor: pointer;
+}
+#reg{
+
+    margin-top: 140px;
+    margin-left: 50px;
+}

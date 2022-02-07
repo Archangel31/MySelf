@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>about_me2</title>
+    <style>
+        * {
+            background-color: black;
+        }
+
+        .cer_img {
+            position: fixed;
+            margin: 100px 500px;
+            height: 400px;
+            width: 500px;
+        }
+
+        a {
+            margin-left: 700px;
+            color: aliceblue;
+        }
+
+        .cer_img2 {
+            position: fixed;
+            margin: 280px 1050px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <span><img class="cer_img"
+                src="https://thumbs.dreamstime.com/z/certificate-template-blue-gold-modern-online-course-diploma-corporate-training-design-228636554.jpg">
+            <img class="cer_img2" onclick="next()"
+                src="https://www.agilent.com/cs/promotions/images/chevron-right-blue.svg" width="50" height="50"></span>
+    </div>
+    <a href="file:///C:/Users/Archana/Desktop/JavaScript/.vscode/-About_Me-.html">back to homepage</a>
+</body>
+<script>
+    function next() {
+        document.getElementsByClassName("cer_img").src = "https://i2.wp.com/creativecertificates.com/wp-content/uploads/2011/12/well-done.jpg";
+        document.getElementsByClassName("cer_img2").src = "";
+    }
+</script>
+
+</html>
