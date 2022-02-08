@@ -74,13 +74,12 @@ td{
 .img1:hover,
 .img1:focus {
     margin-top: 3px;
-    margin-left: 1464.5;
+    margin-left: 1464;
   border: 3px solid black;
 }
 .cer{
     cursor: pointer;
 }
 #reg{
-    margin-top: 30px;
     margin-left: 50px;
 }
