@@ -78,6 +78,7 @@ td{
   border: 3px solid black;
 }
 .cer{
+    width:200px;
     cursor: pointer;
 }
 #reg{
